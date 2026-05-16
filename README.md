@@ -7,7 +7,7 @@ Implements all three stages of the project spec.
 
 ## Setup & Run
 
-### Prerequisites
+### Prerequisites,
 ```bash
 # Install Rust (if not already installed)
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
