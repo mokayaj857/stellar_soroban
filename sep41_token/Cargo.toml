@@ -1,0 +1,26 @@
+[package]
+name = "sep41_token"
+description = "SEP-41 compliant Soroban token with mint, transfer_from, burn, and burn_from"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.84.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+soroban-sdk = { version = "25.1.0" }
+soroban-token-sdk = { version = "25.1.0" }
+
+[dev-dependencies]
+soroban-sdk = { version = "25.1.0", features = ["testutils"] }
+
+[profile.release]
+opt-level = "z"
+overflow-checks = true
+debug = 0
+strip = "symbols"
+debug-assertions = false
+panic = "abort"
+codegen-units = 1
+lto = true
