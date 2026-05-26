@@ -1,11 +1,4 @@
 [package]
-<<<<<<< HEAD
-name = "bill_manager"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-=======
 name        = "bill_manager"
 version     = "1.0.0"
 edition     = "2021"
@@ -14,4 +7,3 @@ description = "Soroban Bootcamp — Project 1: Interactive CLI Bill Manager"
 
 [dependencies]
 # No external crates — pure Rust standard library
->>>>>>> b64c239f3b2fcf5a33188a8ae7ffdc682e415127

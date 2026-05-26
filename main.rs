@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    println!("Hello, world!");
-=======
 // =============================================================================
 //  Stellar Soroban Bootcamp — Project 1: Interactive Bill Manager
 //
@@ -339,5 +335,4 @@ mod tests {
             assert_eq!(after.get(k), Some(v));
         }
     }
->>>>>>> b64c239f3b2fcf5a33188a8ae7ffdc682e415127
 }
